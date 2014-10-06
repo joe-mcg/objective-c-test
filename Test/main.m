@@ -20,8 +20,11 @@ int main(int argc, const char * argv[]) {
         talkingDroid.modelNumber =@"one";
     
         [talkingDroid logTest];
+        
+        NSString *getString = [talkingDroid getString];
+        NSLog(@"%@", getString);
     
-    
+        [talkingDroid setString:@"BANANAS"];
     }
     return 0;
 }

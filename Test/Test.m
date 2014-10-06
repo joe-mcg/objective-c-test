@@ -15,4 +15,13 @@
 {
     NSLog(@"I am now logging this out from logTest.");
 }
+
+-(NSString *)getString;
+{
+    return @"This is a string from returnString()";
+}
+-(void)setString:(NSString *)stringToSet
+{
+    NSLog(@"The string set was: %@", stringToSet);
+}
 @end

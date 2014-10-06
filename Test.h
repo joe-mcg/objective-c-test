@@ -15,6 +15,8 @@
 @property NSString *modelNumber;
 
 -(void)logTest;
+-(NSString *)getString;
+-(void)setString:(NSString *)stringToSet;
 
 @end
 //#endif
