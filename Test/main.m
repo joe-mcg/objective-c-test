@@ -7,11 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Test.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"Hello, Joe!");
+    
+    
+        Test *talkingDroid = [[Test alloc] init];
+        talkingDroid.phoneName = @"phony";
+        talkingDroid.modelNumber =@"one";
+    
+        [talkingDroid logTest];
+    
+    
     }
     return 0;
 }
